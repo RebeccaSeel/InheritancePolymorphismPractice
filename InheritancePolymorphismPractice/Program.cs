@@ -29,6 +29,9 @@ namespace InheritancePolymorphismPractice
             plane1.Move();
             Console.WriteLine("Aircraft " + plane1.GetDistanceTraveled());
 
+            //Appliances stove = new Appliances(); //red squiggly because you can't create object for abstract class
+
+
         }
     }
 }
