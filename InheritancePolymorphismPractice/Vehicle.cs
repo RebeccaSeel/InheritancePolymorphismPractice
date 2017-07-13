@@ -42,7 +42,7 @@ namespace InheritancePolymorphismPractice
         }
 
         //create methods
-        public virtual void Move()
+        public virtual void Move() //virtual keyword = whoever inherits from this class can override this method
         {
             distanceTraveled += movementSpeed;
         }
